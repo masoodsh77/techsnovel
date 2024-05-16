@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" id="title">Techsnovel Code Challenge</h1>
 
-## Getting Started
+<p id="description">A code challenge test for interview of techsnovel company</p>
+    
+<h2>🧐 Features</h2>
 
-First, run the development server:
+Here're some of the project's best features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+*   You can see the users list 
+*   Delete, Update, and edit users
+*   You can see user individually details
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. clone</p>
+
+```
+ git clone git@github.com:masoodsh77/techsnovel.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>2. install dependencies</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p>3. run project on dev</p>
 
-## Learn More
+```
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+<p>4. run project on production server</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+yarn build && yarn start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+<h2>🍰 Contribution Guidelines:</h2>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+In the ./src you can see this flow:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+src =>
+     |- @types = #in this folder you can see and edit every type of project
+     |- app = #in this folder you can find project routes and pages
+     |- components = #in this folder we place all reuseable components
+     |- layout = # on this folder you can find main layout, footer and header
+     |- sections = # this is important folder : in this folder you can find and edit internal section of pages like : view and components
+     |- theme = # config of MUI
+```
+
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   material UI
+*   react-hook-form
+*   moment
+*   yup
+*   react-toastify
+*   axios
+*   iconify
+*   node 20
+*   Next js 14
