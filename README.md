@@ -6,9 +6,9 @@
 
 Here're some of the project's best features:
 
-*   You can see the users list 
-*   Delete, Update, and edit users
-*   You can see user individually details
+- You can see the users list
+- Delete, Update, and edit users
+- You can see user individually details
 
 <h2>🛠️ Installation Steps:</h2>
 
@@ -36,31 +36,33 @@ yarn dev
 yarn build && yarn start
 ```
 
-
 <h2>🍰 Contribution Guidelines:</h2>
 
 In the ./src you can see this flow:
 
 ```bash
 src =>
+     |- _client = # config axios for this project
+     |- _req-hooks = # config react-query Queries and Mutations
+     |- _requests = # config requests with axios for react-query
      |- @types = #in this folder you can see and edit every type of project
      |- app = #in this folder you can find project routes and pages
      |- components = #in this folder we place all reuseable components
      |- layout = # on this folder you can find main layout, footer and header
-     |- sections = # this is important folder : in this folder you can find and edit internal section of pages like : view and components
-     |- theme = # config of MUI
+     |- redux = # config of Redux (Store and slices)
+     |- sections = # this is important folder : in this folder you can find and edit internal section of pages like : view and pages structure
 ```
 
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
 
-*   material UI
-*   react-hook-form
-*   moment
-*   yup
-*   react-toastify
-*   axios
-*   iconify
-*   node 20
-*   Next js 14
+- material UI
+- react-hook-form
+- moment
+- yup
+- react-toastify
+- axios
+- iconify
+- node 20
+- Next js 14
